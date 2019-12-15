@@ -63,7 +63,7 @@ double get_theta(const MyQuaternion &Q){
 
 //Aufgabe 3.2.B:
 double get_theta_cubic(const MyQuaternion &Q){
-	double e[4] = {Q[0], Q[1], Q[2], Q[3]};
+	double e[4] = {abs(Q[0]), abs(Q[1]), abs(Q[2]), abs(Q[3])};
 	std::sort(std::begin(e), std::end(e));
 
     MyQuaternion q1(e[0], e[1], e[2], e[3]);

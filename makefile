@@ -4,7 +4,7 @@ FLAGS = -O2 -std=c++11
 
 CC = g++
 
-SRCS = MyQuaternion.cpp main_aufgabe2.cpp MyFunctions.cpp
+SRCS = MyQuaternion.cpp main_aufgabe3.cpp MyFunctions.cpp
 
 OBJ = $(SRCS:.cpp=.o)
 
